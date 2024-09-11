@@ -204,7 +204,8 @@ align-items: center;
     text-align: center;
 }
 .employer-container {
-    padding: 32px 0;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .team_name-container {
