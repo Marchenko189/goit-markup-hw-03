@@ -25,7 +25,7 @@ ul {
 img {
     display: block;
 }
-.vissually-hidden {
+.visually-hidden {
     position: absolute;
     width: 1px;
     height: 1px;
@@ -50,6 +50,7 @@ img {
 .header-container {
 display: flex;
 align-items: center;
+border-bottom: 1px solid #e7e9fc;
 }
 
 .link:hover, .link:focus {
@@ -135,7 +136,10 @@ align-items: center;
     letter-spacing: 0.04em;
     border-radius: 4px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    border: none;
     cursor: pointer;
+    min-width: 169px;
+    height: 56px;
     display: block;
     padding: 16px 32px;
     margin-left: auto;
@@ -148,6 +152,7 @@ align-items: center;
 }
 .title_section {
     background-color: #2e2f42;
+    padding: 188px 0;
 }
 
 /* Advantages and our team settings */
@@ -190,9 +195,17 @@ align-items: center;
     letter-spacing: 0.02em;
     margin-top: 0;
 }
-.txt_team {
-    padding-bottom: 32px;
+.title-team {
+    text-align: center;
+    margin-bottom: 8px;
 }
+.txt-team {
+    text-align: center;
+}
+.employer-container {
+    padding: 32px 0;
+}
+
 .team_name-container {
     display: flex;
     text-align: center;
@@ -213,12 +226,13 @@ align-items: center;
 
 .portfolio-li {
     border-bottom: 1px solid #e7e9fc;
+    border-radius: 0px 0px 4px 4px;
     max-width: calc((100%-48px)/3);
 }
 /* Footer settings */
 
 .logo-footer {
-    display: block;
+    display: inline-block;
     margin-top: 100px;
     margin-right: auto;
     margin-bottom: 16px;
@@ -235,6 +249,7 @@ align-items: center;
 }
 .footer {
     background-color: #2E2F42;
+    padding: 100px 0;
 }
 .accent_footer {
     color: #f4f4fd;
